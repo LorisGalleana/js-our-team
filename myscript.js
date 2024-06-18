@@ -46,14 +46,17 @@ const team = [
 //stampare su console, per ogni membro del team, le informazioni di nome, ruole e la stringa della foto
 for (let i = 0; i < team.length; i++) {
     let teamMember = team[i]
-    let memberName = "Nome: " + teamMember.nome;
-    let memberRole = "Ruolo: " +teamMember.ruolo;
-    let memberPhoto = "Foto: " +teamMember.foto;
-    console.log(memberName);
-    console.log(memberRole);
-    console.log(memberPhoto);
-    console.log("                    ");
+    let memberName = teamMember.nome;
+    let memberRole = teamMember.ruolo;
+    let memberPhoto = teamMember.foto;
+    newDiv(userName,"Nome: ", memberName);
+    newDiv(userRole,"Ruolo: ", memberRole);
+    newDiv(userPhoto,"Foto: ", memberPhoto);
 }
 
 
 ///stampare le stesse informazioni su DOM sottoforma di stringhe
+
+
+
+

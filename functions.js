@@ -43,3 +43,11 @@ function showHide(classToShow, classToHide) {
     show.style.display = "flex"
     hide.style.display = "none"
 }
+
+function newDiv(dove, cosa1, cosa2) {
+    
+    dove.innerHTML +=
+    `
+    <div>${cosa1}${cosa2}</div>
+    `
+}

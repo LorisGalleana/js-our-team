@@ -3,3 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    gap: 5%;
+}
+.member-name, .member-role, .member-photo {
+    display: flex;
+    flex-direction: column;
+}
