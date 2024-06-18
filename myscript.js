@@ -1,3 +1,8 @@
+const userName = document.querySelector(".member-name");
+const userRole = document.querySelector(".member-role");
+const userPhoto = document.querySelector(".member-photo");
+
+
 //creare array di oggetti per rappresentare i membri del team
 const team = [
     //ogni membro(oggetto) è caratterizzato dalle seguenti informazioni: nome, ruolo e foto
