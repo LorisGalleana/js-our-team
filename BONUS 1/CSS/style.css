@@ -18,5 +18,8 @@
     margin-bottom: 3%;
 }
 .member-photo {
-    transform: scale(.3);
+    width: calc(100% / 3 - 5%);
+}
+.member-name, .member-role{
+    text-align: center;
 }
